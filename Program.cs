@@ -1,5 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using UniversiteAppBackend.DataAccess;
+using UniversiteAppBackend.Controllers;
 namespace UniversiteAppBackend
 {
     public class Program
@@ -40,7 +41,6 @@ namespace UniversiteAppBackend
 
 
             app.MapControllers();
-
             app.Run();
         }
     }
